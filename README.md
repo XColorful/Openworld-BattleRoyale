@@ -1,5 +1,3 @@
-# 中文版
-
 **在定制的开放世界中重新定义你的大逃杀战场**
 
 核心特色：
@@ -14,13 +12,20 @@
 
 ### 大逃杀机制
 无需原版边界、提供丰富且独立于原版的游戏机制
+
 - Custom BattleRoyale by XiaoColorful
 
 ### 世界生成
 使开放世界中的建筑更加丰富
+
 - Better Villages by jtl_elisa, jtl_tom
+- ChoiceTheorem's Overhauled Village
 - Chunky by pop4959
+- Formations Overworld by SuperMartjin642
+- MVS - Moog's Voyager Structures by finndog_123, olver___\_, havococcultist, TFA120
+- Repurposed Structures by telopathicgrunt
 - Tectonic by Apollo
+- Towns and Towers by Biban_Auriu, Kubek
 - YUNG's Better Desert Temples by YUNGNICKYOUNG, TeraBuildsStuff
 - YUNG's Better Jungle Temples by YUNGNICKYOUNG, TeraBuildsStuff
 - YUNG's Better Ocean Monuments by YUNGNICKYOUNG, TeraBuildsStuff
@@ -30,16 +35,20 @@
 
 ### 数据包
 均衡世界中的掩体与物资数量
+
 - OBR less vegetation by XiaoColorful
 - OBR more structures by XiaoColorful
 
 ### 物品
 以枪战为主的大逃杀、可替换为其他模组
+
 - [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
 - [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
+- Gliders by Jeryn, tamlighter, TommyCBricks
 
 ### 视觉优化
 经典大逃杀游戏的视角
+
 - Camera Overhaul Reforged by ConfusedFool93
 - ItemPhysics Full by CreativeMD
 - Pick Up Notifier by Fuzs
@@ -47,20 +56,30 @@
 
 ### 辅助
 让游戏过程更便捷
+
 - Hidden Names by pitbox46
 - JourneyMap by techbrew, Mysticdrew, meme_sapiens
 - Kiwi by Snownee
 - Mouse Tweaks by YaLTeR
+- Open Loader by DarkhaxDev
 - Passable Foliage by Snownee
 - ReForgedPlay by Ferri_Arnus
 - Trample Stopper by UnRealDinnerbone, nanitedev
 - WorldEdit by sk89q, me4502, wizjany_, octylFractal
 
 ### 整合包模组依赖项
+
 - Cloth Config API by shedaniel, LinkielsBetterThanK9
-- YUNG's API by YUNGNICKYOUNG
+- CreativeCore by CreativeMD
+- Cristel Lib
+- Formations by SuperMartjin642
+- Library Ferret by jtl_elisa, jtl_tom
+- Lithostitiched by Apollo, SmellyModder
+- Puzzles Lib by Fuzs
 - Trenzalore by UnRealDinnerbone
+- YUNG's API by YUNGNICKYOUNG
 
 ### 光影
 美观又不失兼容性
+
 - Complementary Shaders - Reimagined by EminGT
