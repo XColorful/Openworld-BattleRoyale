@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Openworld BattleRoyale",
-  "version": "0.2.6-1",
+  "version": "0.2.9",
   "author": "",
   "files": [
     {
@@ -60,6 +60,11 @@
       "required": true
     },
     {
+      "projectID": 1277855,
+      "fileID": 6850807,
+      "required": true
+    },
+    {
       "projectID": 1018692,
       "fileID": 5637596,
       "required": true
@@ -90,6 +95,11 @@
       "required": true
     },
     {
+      "projectID": 429235,
+      "fileID": 4810975,
+      "required": true
+    },
+    {
       "projectID": 379887,
       "fileID": 4869702,
       "required": true
@@ -106,7 +116,7 @@
     },
     {
       "projectID": 686836,
-      "fileID": 5676419,
+      "fileID": 6845552,
       "required": true
     },
     {
@@ -140,6 +150,11 @@
       "required": true
     },
     {
+      "projectID": 551736,
+      "fileID": 6044481,
+      "required": true
+    },
+    {
       "projectID": 258587,
       "fileID": 6450992,
       "required": true
@@ -170,8 +185,18 @@
       "required": true
     },
     {
+      "projectID": 908741,
+      "fileID": 5681725,
+      "required": true
+    },
+    {
       "projectID": 536660,
       "fileID": 4769518,
+      "required": true
+    },
+    {
+      "projectID": 976858,
+      "fileID": 6816947,
       "required": true
     },
     {
@@ -190,6 +215,16 @@
       "required": true
     },
     {
+      "projectID": 1103431,
+      "fileID": 6100812,
+      "required": true
+    },
+    {
+      "projectID": 790626,
+      "fileID": 6837713,
+      "required": true
+    },
+    {
       "projectID": 243190,
       "fileID": 6784150,
       "required": true
@@ -200,8 +235,8 @@
       "required": true
     },
     {
-      "projectID": 1277855,
-      "fileID": 6829087,
+      "projectID": 433068,
+      "fileID": 5015286,
       "required": true
     },
     {
@@ -217,6 +252,11 @@
     {
       "projectID": 225608,
       "fileID": 4586218,
+      "required": true
+    },
+    {
+      "projectID": 535489,
+      "fileID": 6809408,
       "required": true
     },
     {
