@@ -51,6 +51,8 @@
 
 - Camera Overhaul Reforged by ConfusedFool93
 - ItemPhysics Full by CreativeMD
+- Oculus by Asek3
+- Physics Mod by haubna
 - Pick Up Notifier by Fuzs
 - Shoulder Surfing Reloaded by \_ForgeUser21552638, Exopandora
 - Sodium/Embeddium Dynamic Lights by Txni
@@ -59,6 +61,7 @@
 让游戏过程更便捷
 
 - Embeddium by FiniteReality
+- FerriteCore by malte0811
 - Hidden Names by pitbox46
 - Inventory Tweaks - ReFoxed by LobsterJonn
 - JourneyMap by techbrew, Mysticdrew, meme_sapiens
@@ -67,6 +70,7 @@
 - Mouse Tweaks by YaLTeR
 - Open Loader by DarkhaxDev
 - Passable Foliage by Snownee
+- PlayerRevive by CreativeMD
 - Presence Footsteps (Forge) by Paint_Ninja
 - ReForgedPlay by Ferri_Arnus
 - Sound Physics Remastered by henkelmax

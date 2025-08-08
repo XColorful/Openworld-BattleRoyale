@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Openworld BattleRoyale server",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "author": "",
   "files": [
     {
@@ -57,6 +57,11 @@
     {
       "projectID": 1310601,
       "fileID": 6791714,
+      "required": true
+    },
+    {
+      "projectID": 266890,
+      "fileID": 6048921,
       "required": true
     },
     {
@@ -116,7 +121,7 @@
     },
     {
       "projectID": 258587,
-      "fileID": 6450992,
+      "fileID": 6862477,
       "required": true
     },
     {
@@ -130,13 +135,13 @@
       "required": true
     },
     {
-      "projectID": 897669,
-      "fileID": 5331760,
+      "projectID": 1277855,
+      "fileID": 6863239,
       "required": true
     },
     {
-      "projectID": 1277855,
-      "fileID": 6850807,
+      "projectID": 897669,
+      "fileID": 5331760,
       "required": true
     },
     {
@@ -145,13 +150,13 @@
       "required": true
     },
     {
-      "projectID": 479134,
-      "fileID": 6293591,
+      "projectID": 297028,
+      "fileID": 4584844,
       "required": true
     },
     {
-      "projectID": 297028,
-      "fileID": 4584844,
+      "projectID": 479134,
+      "fileID": 6293591,
       "required": true
     },
     {
@@ -160,23 +165,23 @@
       "required": true
     },
     {
-      "projectID": 689238,
-      "fileID": 4883003,
-      "required": true
-    },
-    {
       "projectID": 623908,
       "fileID": 6459777,
       "required": true
     },
     {
-      "projectID": 480006,
-      "fileID": 4769514,
+      "projectID": 689238,
+      "fileID": 4883003,
       "required": true
     },
     {
       "projectID": 1028108,
       "fileID": 6654541,
+      "required": true
+    },
+    {
+      "projectID": 480006,
+      "fileID": 4769514,
       "required": true
     },
     {
@@ -192,6 +197,11 @@
     {
       "projectID": 870210,
       "fileID": 4848244,
+      "required": true
+    },
+    {
+      "projectID": 442735,
+      "fileID": 5306442,
       "required": true
     },
     {

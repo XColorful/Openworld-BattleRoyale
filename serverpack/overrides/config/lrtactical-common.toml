@@ -1,3 +1,4 @@
+
 [grenade]
 	#Whether grenade explosion can damage blocks (if it can)
 	grenadeExplosionBlockDamage = false
@@ -8,3 +9,4 @@
 	#when target's invulnerable tick is less than this value, melee attack will ignore it
 	#Range: 0 ~ 100
 	meleeIgnoreInvulnerableTickThreshold = 20
+
