@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Openworld BattleRoyale",
-  "version": "0.3.0",
+  "version": "0.3.0-1",
   "author": "",
   "files": [
     {
@@ -90,18 +90,13 @@
       "required": true
     },
     {
-      "projectID": 627557,
-      "fileID": 6515577,
+      "projectID": 379887,
+      "fileID": 4869702,
       "required": true
     },
     {
       "projectID": 442735,
       "fileID": 5306442,
-      "required": true
-    },
-    {
-      "projectID": 379887,
-      "fileID": 4869702,
       "required": true
     },
     {
