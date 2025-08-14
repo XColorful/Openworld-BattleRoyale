@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Openworld BattleRoyale",
-  "version": "0.3.0-1",
+  "version": "0.3.2",
   "author": "",
   "files": [
     {
@@ -22,6 +22,11 @@
     {
       "projectID": 60089,
       "fileID": 5338457,
+      "required": true
+    },
+    {
+      "projectID": 1277855,
+      "fileID": 6883188,
       "required": true
     },
     {
@@ -55,8 +60,18 @@
       "required": true
     },
     {
+      "projectID": 1044724,
+      "fileID": 6798002,
+      "required": true
+    },
+    {
       "projectID": 897669,
       "fileID": 5331760,
+      "required": true
+    },
+    {
+      "projectID": 882495,
+      "fileID": 4884976,
       "required": true
     },
     {
@@ -85,11 +100,6 @@
       "required": true
     },
     {
-      "projectID": 429235,
-      "fileID": 4810975,
-      "required": true
-    },
-    {
       "projectID": 379887,
       "fileID": 4869702,
       "required": true
@@ -111,7 +121,7 @@
     },
     {
       "projectID": 686836,
-      "fileID": 6845552,
+      "fileID": 6876516,
       "required": true
     },
     {
@@ -132,6 +142,11 @@
     {
       "projectID": 1011593,
       "fileID": 5359800,
+      "required": true
+    },
+    {
+      "projectID": 326652,
+      "fileID": 5470032,
       "required": true
     },
     {
@@ -180,6 +195,11 @@
       "required": true
     },
     {
+      "projectID": 633412,
+      "fileID": 5016280,
+      "required": true
+    },
+    {
       "projectID": 351441,
       "fileID": 4613538,
       "required": true
@@ -192,6 +212,11 @@
     {
       "projectID": 536660,
       "fileID": 4769518,
+      "required": true
+    },
+    {
+      "projectID": 582327,
+      "fileID": 6296598,
       "required": true
     },
     {
@@ -245,11 +270,6 @@
       "required": true
     },
     {
-      "projectID": 1277855,
-      "fileID": 6863239,
-      "required": true
-    },
-    {
       "projectID": 479134,
       "fileID": 6293591,
       "required": true
@@ -272,6 +292,11 @@
     {
       "projectID": 535489,
       "fileID": 6809408,
+      "required": true
+    },
+    {
+      "projectID": 526854,
+      "fileID": 4631193,
       "required": true
     },
     {
