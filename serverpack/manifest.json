@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Openworld BattleRoyale server",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "author": "",
   "files": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "projectID": 686836,
-      "fileID": 6876516,
+      "fileID": 6886731,
       "required": true
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "projectID": 1277855,
-      "fileID": 6883188,
+      "fileID": 6895343,
       "required": true
     },
     {
