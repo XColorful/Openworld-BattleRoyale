@@ -5,7 +5,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -118,6 +118,19 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.boththrow.desc:key.mouse.left
+key_key.leftthrow.desc:key.keyboard.unknown
+key_key.rightthrow.desc:key.keyboard.unknown
+key_key.motoronoff.desc:key.keyboard.left.shift
+key_key.jumpanddetach.desc:key.keyboard.space
+key_key.slow.desc:key.keyboard.left.shift
+key_key.climb.desc:key.keyboard.left.shift
+key_key.climbup.desc:key.keyboard.unknown
+key_key.climbdown.desc:key.keyboard.unknown
+key_key.enderlaunch.desc:key.mouse.left
+key_key.rocket.desc:key.mouse.left
+key_key.slide.desc:key.keyboard.left.shift
+key_key.taczaddon.switch_gun.desc:key.keyboard.right.bracket
 key_key.tacz.inspect.desc:key.keyboard.j
 key_key.tacz.reload.desc:key.keyboard.r
 key_key.tacz.shoot.desc:key.mouse.left
@@ -193,6 +206,8 @@ key_key.lrtactical.sp_attack.desc:key.mouse.right
 key_iris.keybind.reload:key.keyboard.right.bracket
 key_iris.keybind.toggleShaders:key.keyboard.right.bracket
 key_iris.keybind.shaderPackSelection:key.keyboard.right.bracket
+key_key.modernui.openCenter:key.keyboard.k:CONTROL
+key_key.modernui.zoom:key.keyboard.right.bracket
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.pickup.item:key.keyboard.unknown
 soundCategory_master:1.0

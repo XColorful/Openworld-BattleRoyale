@@ -42,6 +42,7 @@
 ### 物品
 以枪战为主的大逃杀、可替换为其他模组
 
+- Grappling Hook - Reforged by Chummycho
 - [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
 - [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
 - Gliders by Jeryn, tamlighter, TommyCBricks
@@ -51,6 +52,8 @@
 
 - Camera Overhaul Reforged by ConfusedFool93
 - ItemPhysics Full by CreativeMD
+- Modern UI by BloCamLimb
+- My Server Is Compatible by focamacho
 - Oculus by Asek3
 - Physics Mod by haubna
 - Pick Up Notifier by Fuzs
@@ -61,9 +64,9 @@
 让游戏过程更便捷
 
 - Accessible Step by secret_online
+- Controlling by Jaredlll08
 - Embeddium by FiniteReality
 - fix GPU memory leak by someaddon
-- Hidden Names by pitbox46
 - Inventory Tweaks - ReFoxed by LobsterJonn
 - JourneyMap by techbrew, Mysticdrew, meme_sapiens
 - Kiwi by Snownee
@@ -72,12 +75,13 @@
 - Open Loader by DarkhaxDev
 - Passable Foliage by Snownee
 - PlayerRevive by CreativeMD
-- Presence Footsteps (Forge) by Paint_Ninja
+- Presence Footsteps by Paint_Ninja
 - ReForgedPlay by Ferri_Arnus
 - Server Performance - Smooth Chunk Save by someaddon
 - Smooth Boot (Reloaded) by AbdElAziz333
 - Sound Physics Remastered by henkelmax
 - Starlight by Spottedleaf
+- TaCZ addon by Mafuyu404
 - Trample Stopper by UnRealDinnerbone, nanitedev
 - WorldEdit by sk89q, me4502, wizjany_, octylFractal
 
@@ -91,6 +95,7 @@
 - Library Ferret by jtl_elisa, jtl_tom
 - Lithostitiched by Apollo, SmellyModder
 - Puzzles Lib by Fuzs
+- Searchables by Jaredlll08
 - Soduim/Embeddium Options API
 - Trenzalore by UnRealDinnerbone
 - YUNG's API by YUNGNICKYOUNG
