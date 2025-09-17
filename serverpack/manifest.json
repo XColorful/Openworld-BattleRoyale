@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Openworld BattleRoyale server",
-  "version": "0.3.6-1",
+  "version": "0.3.7-1",
   "author": "",
   "files": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "projectID": 1277855,
-      "fileID": 6979600,
+      "fileID": 7003542,
       "required": true
     },
     {
@@ -140,13 +140,13 @@
       "required": true
     },
     {
-      "projectID": 1166811,
-      "fileID": 6028357,
+      "projectID": 257814,
+      "fileID": 6383884,
       "required": true
     },
     {
-      "projectID": 257814,
-      "fileID": 6383884,
+      "projectID": 1166811,
+      "fileID": 6028357,
       "required": true
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "projectID": 303657,
-      "fileID": 6466335,
+      "fileID": 6907020,
       "required": true
     },
     {
@@ -190,23 +190,23 @@
       "required": true
     },
     {
-      "projectID": 623908,
-      "fileID": 6459777,
-      "required": true
-    },
-    {
       "projectID": 689238,
       "fileID": 4883003,
       "required": true
     },
     {
-      "projectID": 1028108,
-      "fileID": 6654541,
+      "projectID": 623908,
+      "fileID": 6459777,
       "required": true
     },
     {
       "projectID": 480006,
       "fileID": 4769514,
+      "required": true
+    },
+    {
+      "projectID": 1028108,
+      "fileID": 6654541,
       "required": true
     },
     {

@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Openworld BattleRoyale",
-  "version": "0.3.6-1",
+  "version": "0.3.7-1",
   "author": "",
   "files": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "projectID": 1277855,
-      "fileID": 6979600,
+      "fileID": 7003542,
       "required": true
     },
     {
@@ -35,13 +35,13 @@
       "required": true
     },
     {
-      "projectID": 250398,
-      "fileID": 4646682,
+      "projectID": 60089,
+      "fileID": 5338457,
       "required": true
     },
     {
-      "projectID": 60089,
-      "fileID": 5338457,
+      "projectID": 250398,
+      "fileID": 4646682,
       "required": true
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "projectID": 303657,
-      "fileID": 6466335,
+      "fileID": 6907020,
       "required": true
     },
     {
@@ -85,13 +85,13 @@
       "required": true
     },
     {
-      "projectID": 352491,
-      "fileID": 6956345,
+      "projectID": 882495,
+      "fileID": 4884976,
       "required": true
     },
     {
-      "projectID": 882495,
-      "fileID": 4884976,
+      "projectID": 352491,
+      "fileID": 6956345,
       "required": true
     },
     {
@@ -170,8 +170,8 @@
       "required": true
     },
     {
-      "projectID": 326652,
-      "fileID": 5470032,
+      "projectID": 656977,
+      "fileID": 6647399,
       "required": true
     },
     {
@@ -180,8 +180,8 @@
       "required": true
     },
     {
-      "projectID": 656977,
-      "fileID": 6647399,
+      "projectID": 326652,
+      "fileID": 5470032,
       "required": true
     },
     {
@@ -195,13 +195,13 @@
       "required": true
     },
     {
-      "projectID": 258587,
-      "fileID": 6862477,
+      "projectID": 32274,
+      "fileID": 5789363,
       "required": true
     },
     {
-      "projectID": 32274,
-      "fileID": 5789363,
+      "projectID": 258587,
+      "fileID": 6862477,
       "required": true
     },
     {
@@ -210,13 +210,13 @@
       "required": true
     },
     {
-      "projectID": 532727,
-      "fileID": 4601234,
+      "projectID": 623908,
+      "fileID": 6459777,
       "required": true
     },
     {
-      "projectID": 623908,
-      "fileID": 6459777,
+      "projectID": 532727,
+      "fileID": 4601234,
       "required": true
     },
     {
@@ -250,13 +250,13 @@
       "required": true
     },
     {
-      "projectID": 1166811,
-      "fileID": 6028357,
+      "projectID": 1310637,
+      "fileID": 6791721,
       "required": true
     },
     {
-      "projectID": 1310637,
-      "fileID": 6791721,
+      "projectID": 1166811,
+      "fileID": 6028357,
       "required": true
     },
     {
@@ -281,7 +281,7 @@
     },
     {
       "projectID": 243190,
-      "fileID": 6784150,
+      "fileID": 6993788,
       "required": true
     },
     {
@@ -310,23 +310,23 @@
       "required": true
     },
     {
-      "projectID": 915324,
-      "fileID": 6792379,
-      "required": true
-    },
-    {
       "projectID": 535489,
       "fileID": 6809408,
       "required": true
     },
     {
-      "projectID": 526854,
-      "fileID": 4631193,
+      "projectID": 915324,
+      "fileID": 6792379,
       "required": true
     },
     {
       "projectID": 257814,
       "fileID": 6383884,
+      "required": true
+    },
+    {
+      "projectID": 526854,
+      "fileID": 4631193,
       "required": true
     }
   ],
