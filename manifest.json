@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Openworld BattleRoyale",
-  "version": "0.3.7-1",
+  "version": "0.3.7-2",
   "author": "",
   "files": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "projectID": 1277855,
-      "fileID": 7003542,
+      "fileID": 7017767,
       "required": true
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "projectID": 1238419,
-      "fileID": 6523215,
+      "fileID": 7009388,
       "required": true
     },
     {
@@ -85,6 +85,11 @@
       "required": true
     },
     {
+      "projectID": 220318,
+      "fileID": 4617259,
+      "required": true
+    },
+    {
       "projectID": 882495,
       "fileID": 4884976,
       "required": true
@@ -112,6 +117,11 @@
     {
       "projectID": 915115,
       "fileID": 6789339,
+      "required": true
+    },
+    {
+      "projectID": 563928,
+      "fileID": 6290448,
       "required": true
     },
     {
@@ -157,6 +167,11 @@
     {
       "projectID": 828331,
       "fileID": 6517195,
+      "required": true
+    },
+    {
+      "projectID": 1349377,
+      "fileID": 7013913,
       "required": true
     },
     {
@@ -225,6 +240,11 @@
       "required": true
     },
     {
+      "projectID": 955399,
+      "fileID": 5787839,
+      "required": true
+    },
+    {
       "projectID": 351441,
       "fileID": 4613538,
       "required": true
@@ -270,8 +290,18 @@
       "required": true
     },
     {
+      "projectID": 995122,
+      "fileID": 6670776,
+      "required": true
+    },
+    {
       "projectID": 1103431,
       "fileID": 6100812,
+      "required": true
+    },
+    {
+      "projectID": 269024,
+      "fileID": 7014353,
       "required": true
     },
     {
@@ -301,7 +331,7 @@
     },
     {
       "projectID": 1310601,
-      "fileID": 6791714,
+      "fileID": 7013907,
       "required": true
     },
     {
@@ -311,7 +341,7 @@
     },
     {
       "projectID": 535489,
-      "fileID": 6809408,
+      "fileID": 7011884,
       "required": true
     },
     {
