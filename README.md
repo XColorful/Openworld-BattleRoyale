@@ -19,12 +19,15 @@
 使开放世界中的建筑更加丰富
 
 - Better Villages by jtl_elisa, jtl_tom
+- Biomes O' Plenty by Forstride, TheAdubbz
 - ChoiceTheorem's Overhauled Village
 - Chunky by pop4959
 - Formations Overworld by SuperMartjin642
+- Lithosphere by J4yzet
 - MVS - Moog's Voyager Structures by finndog_123, olver___\_, havococcultist, TFA120
 - Repurposed Structures by telopathicgrunt
 - Tectonic by Apollo
+- The Lost Cities by McJty
 - Towns and Towers by Biban_Auriu, Kubek
 - YUNG's Better Desert Temples by YUNGNICKYOUNG, TeraBuildsStuff
 - YUNG's Better Jungle Temples by YUNGNICKYOUNG, TeraBuildsStuff
@@ -37,7 +40,9 @@
 均衡世界中的掩体与物资数量
 
 - OBR less vegetation by XiaoColorful
+- OBR lost cities by XiaoColorful
 - OBR more structures by XiaoColorful
+- (Not included, recommended to download from Modrinth) Still Life by Jayzet
 
 ### 物品
 以枪战为主的大逃杀、可替换为其他模组
@@ -92,10 +97,12 @@
 - Cristel Lib
 - Cupboard by someaddon
 - Formations by SuperMartjin642
+- GlitchCore by TheAdubbz
 - Library Ferret by jtl_elisa, jtl_tom
 - Lithostitiched by Apollo, SmellyModder
 - Puzzles Lib by Fuzs
 - Searchables by Jaredlll08
 - Soduim/Embeddium Options API
+- TerraBlender by TheAdubbz
 - Trenzalore by UnRealDinnerbone
 - YUNG's API by YUNGNICKYOUNG
