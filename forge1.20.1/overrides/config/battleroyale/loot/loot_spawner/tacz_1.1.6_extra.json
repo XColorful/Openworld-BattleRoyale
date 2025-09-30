@@ -1,7 +1,6 @@
 [
   {
     "lootId": 0,
-    "default": true,
     "name": "Widespread common loot (extra rare)",
     "color": "#FFFFFFAA",
     "entry": {
