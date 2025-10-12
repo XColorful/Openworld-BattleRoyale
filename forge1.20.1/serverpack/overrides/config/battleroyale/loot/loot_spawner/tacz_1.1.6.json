@@ -1,6 +1,7 @@
 [
   {
     "lootId": 0,
+    "default": true,
     "name": "Widespread common loot",
     "color": "#FFFFFFAA",
     "entry": {

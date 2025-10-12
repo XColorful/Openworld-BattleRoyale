@@ -58,6 +58,236 @@
     }
   },
   {
+    "zoneId": 1,
+    "zoneName": "Game Start Message",
+    "zoneColor": "FFAA00AA",
+    "zoneDelay": 0,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"bold\":true,\"text\":\"§6Game Start\"}",
+      "subtitle": "{\"text\":\"\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "circle",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 2,
+    "zoneName": "Levitation Effect",
+    "zoneColor": "#AAAAAA11",
+    "zoneDelay": 0,
+    "zoneTime": 200,
+    "zoneFunc": {
+      "zoneFuncType": "effect",
+      "moveDelay": 0,
+      "moveTime": 20,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "effects": [
+        {
+          "type": "minecraft:levitation",
+          "duration": 20,
+          "serverLevel": 1
+        },
+        {
+          "type": "minecraft:glowing",
+          "duration": 20,
+          "serverLevel": 1
+        }
+      ]
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 1.01,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 1.01,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 3,
+    "zoneName": "Initial elytra equipment",
+    "zoneColor": "#BBBBBB22",
+    "zoneDelay": 80,
+    "zoneTime": 20,
+    "zoneFunc": {
+      "zoneFuncType": "inventory",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "skipNonEmptySlot": false,
+      "dropBeforeReplace": false,
+      "firstSlotIndex": 36,
+      "lastSlotIndex": 39,
+      "lootEntry": {
+        "lootType": "multi",
+        "entries": [
+          {
+            "lootType": "empty",
+            "type": "item"
+          },
+          {
+            "lootType": "empty",
+            "type": "item"
+          },
+          {
+            "lootType": "item",
+            "item": "minecraft:elytra",
+            "count": 1,
+            "nbt": "{Damage:332}"
+          },
+          {
+            "lootType": "item",
+            "item": "minecraft:iron_helmet",
+            "count": 1,
+            "nbt": ""
+          }
+        ]
+      },
+      "lootSpawnerLootId": -1
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 1.01,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 1.01,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 40,
     "zoneName": "Phase4Forecast",
     "zoneColor": "#00FF0033",
@@ -169,6 +399,144 @@
           "previousZoneId": 40,
           "progress": 1.0,
           "scale": 1.0,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 42,
+    "zoneName": "Phase 4 create message",
+    "zoneColor": "#5555FFFF",
+    "preZoneDelayId": 40,
+    "zoneDelay": 0,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 4\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 43,
+    "zoneName": "Phase 4 shrink message",
+    "zoneColor": "#FF5555FF",
+    "preZoneDelayId": 40,
+    "zoneDelay": 2000,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 4 §cShrinking\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
           "randomRange": 0.0
         },
         "rotation": {
@@ -304,6 +672,144 @@
     }
   },
   {
+    "zoneId": 52,
+    "zoneName": "Phase 5 create message",
+    "zoneColor": "#5555FFFF",
+    "preZoneDelayId": 50,
+    "zoneDelay": 0,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 5\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 53,
+    "zoneName": "Phase 5 shrink message",
+    "zoneColor": "#FF5555FF",
+    "preZoneDelayId": 50,
+    "zoneDelay": 2000,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 5 §cShrinking\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 60,
     "zoneName": "Phase6Forecast",
     "zoneColor": "#00FF0033",
@@ -415,6 +921,144 @@
           "previousZoneId": 60,
           "progress": 1.0,
           "scale": 1.0,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 62,
+    "zoneName": "Phase 6 create message",
+    "zoneColor": "#5555FFFF",
+    "preZoneDelayId": 60,
+    "zoneDelay": 0,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 6\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 63,
+    "zoneName": "Phase 6 shrink message",
+    "zoneColor": "#FF5555FF",
+    "preZoneDelayId": 60,
+    "zoneDelay": 1800,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 6 §cShrinking\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
           "randomRange": 0.0
         },
         "rotation": {
@@ -550,6 +1194,144 @@
     }
   },
   {
+    "zoneId": 72,
+    "zoneName": "Phase 7 create message",
+    "zoneColor": "#5555FFFF",
+    "preZoneDelayId": 70,
+    "zoneDelay": 0,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 7\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 73,
+    "zoneName": "Phase 7 shrink message",
+    "zoneColor": "#FF5555FF",
+    "preZoneDelayId": 70,
+    "zoneDelay": 1400,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 7 §cShrinking\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 80,
     "zoneName": "Phase8Forecast",
     "zoneColor": "#00FF0033",
@@ -673,6 +1455,144 @@
     }
   },
   {
+    "zoneId": 82,
+    "zoneName": "Phase 8 create message",
+    "zoneColor": "#5555FFFF",
+    "preZoneDelayId": 80,
+    "zoneDelay": 0,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 8\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 83,
+    "zoneName": "Phase 8 shrink message",
+    "zoneColor": "#FF5555FF",
+    "preZoneDelayId": 80,
+    "zoneDelay": 1200,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 8 §cShrinking\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 90,
     "zoneName": "Phase9Forecast",
     "zoneColor": "#00FF0033",
@@ -784,6 +1704,144 @@
           "previousZoneId": 90,
           "progress": 1.0,
           "scale": 1.0,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 92,
+    "zoneName": "Phase 9 create message",
+    "zoneColor": "#5555FFFF",
+    "preZoneDelayId": 90,
+    "zoneDelay": 0,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 9\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 93,
+    "zoneName": "Phase 9 shrink message",
+    "zoneColor": "#FF5555FF",
+    "preZoneDelayId": 90,
+    "zoneDelay": 600,
+    "zoneTime": 80,
+    "zoneFunc": {
+      "zoneFuncType": "message",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 25,
+      "tickOffset": 10,
+      "setTitleAnimation": true,
+      "fadeInTicks": 10,
+      "stayTicks": 80,
+      "fadeOutTicks": 20,
+      "sendTitles": true,
+      "title": "{\"text\":\"\"}",
+      "subtitle": "{\"text\":\"§9Phase§b 9 §cShrinking\"}",
+      "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
           "randomRange": 0.0
         },
         "rotation": {
