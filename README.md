@@ -22,7 +22,7 @@
 
 - Better Villages by jtl_elisa, jtl_tom
 - Biomes O' Plenty by Forstride, TheAdubbz
-- ChoiceTheorem's Overhauled Village
+- ChoiceTheorem's Overhauled Village by ChoiceTheorem
 - Chunky by pop4959
 - Formations Overworld by SuperMartjin642
 - Lithosphere by J4yzet
@@ -96,7 +96,7 @@
 
 - Cloth Config API by shedaniel, LinkielsBetterThanK9
 - CreativeCore by CreativeMD
-- Cristel Lib
+- Cristel Lib by Cristelknight
 - Cupboard by someaddon
 - Formations by SuperMartjin642
 - GlitchCore by TheAdubbz
@@ -104,7 +104,7 @@
 - Lithostitiched by Apollo, SmellyModder
 - Puzzles Lib by Fuzs
 - Searchables by Jaredlll08
-- Soduim/Embeddium Options API
+- Soduim/Embeddium Options API by Txni
 - TerraBlender by TheAdubbz
 - Trenzalore by UnRealDinnerbone
 - YUNG's API by YUNGNICKYOUNG
