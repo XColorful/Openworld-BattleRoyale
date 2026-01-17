@@ -9,6 +9,8 @@
 
 该整合包是在完整自定义大逃杀（整合包）的基础上添加了原版地形生成，无需担心没有合适的游戏地图
 
+💡**请手动安装[Still Life](https://modrinth.com/datapack/still-life/versions?g=1.20.1&l=forge)，或删除数据包OBR lost cities**
+
 ## 整合包内容
 按名称排序
 
@@ -44,7 +46,7 @@
 - OBR less vegetation by XiaoColorful
 - OBR lost cities by XiaoColorful
 - OBR more structures by XiaoColorful
-- (Not included, recommended to download from Modrinth) Still Life by Jayzet
+- 💡(Not included, recommended to download from Modrinth) Still Life by Jayzet
 
 ### 物品
 以枪战为主的大逃杀、可替换为其他模组
