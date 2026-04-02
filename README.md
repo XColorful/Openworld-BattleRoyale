@@ -4,6 +4,8 @@
 
 # 开放世界大逃杀
 
+💡[快速入门](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Quick-start-guide) | 😎[wiki](https://github.com/XColorful/Openworld-BattleRoyale/wiki) | 📄[docs](https://github.com/XColorful/Openworld-BattleRoyale/tree/HEAD/docs)
+
 **在定制的开放世界中重新定义你的大逃杀战场**
 
 核心特色：
@@ -15,12 +17,15 @@
 
 💡**请手动安装[Still Life](https://modrinth.com/datapack/still-life/versions?g=1.20.1&l=forge)，或删除数据包OBR lost cities**
 
+⭐**创造模式下右键`木剑`以启用整合包功能！**
+
 ## 整合包内容
 按名称排序
 
 ### 大逃杀机制
 无需原版边界、提供丰富且独立于原版的游戏机制
 
+- CBR addon by XiaoColorful
 - Custom BattleRoyale by XiaoColorful
 
 ### 世界生成
@@ -55,10 +60,11 @@
 ### 物品
 以枪战为主的大逃杀、可替换为其他模组
 
-- Grappling Hook - Reforged by Chummycho
 - [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
 - [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
 - Gliders by Jeryn, tamlighter, TommyCBricks
+- Grappling Hook - Reforged by Chummycho
+- TaCZ Armor Scaling by XiaoColorful
 
 ### 视觉优化
 经典大逃杀游戏的视角
@@ -117,6 +123,8 @@
 
 # Openworld BattleRoyale
 
+💡[Quick start guide](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Quick-start-guide#English) | 😎[wiki](https://github.com/XColorful/Openworld-BattleRoyale/wiki#English) | 📄[docs](https://github.com/XColorful/Openworld-BattleRoyale/tree/HEAD/docs)
+
 **Redefine your Battle Royale battlefield in a custom open world**
 
 Core Features:
@@ -128,11 +136,15 @@ This modpack builds upon a fully customizable Battle Royale experience by integr
 
 💡**Please manually install [Still Life](https://modrinth.com/datapack/still-life/versions?g=1.20.1&l=forge), or delete the OBR lost cities data pack**
 
+⭐**Right-click `wooden sword` in creative mode to enable modpack's function!**
+
 ## Modpack Contents
 Sorted by name
 
 ### Battle Royale Mechanism
 Removes the need for vanilla borders and provides rich, standalone game mechanics.
+
+- CBR addon by XiaoColorful
 - Custom BattleRoyale by XiaoColorful
 
 ### World Generation
@@ -167,10 +179,11 @@ Balances cover and loot density within the world.
 ### Items
 A gun-centric Battle Royale, interchangeable with other mods.
 
-- Grappling Hook - Reforged by Chummycho
 - [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
 - [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
 - Gliders by Jeryn, tamlighter, TommyCBricks
+- Grappling Hook - Reforged by Chummycho
+- TaCZ Armor Scaling by XiaoColorful
 
 ### Visual Enhancements
 Classic Battle Royale game perspectives.

@@ -1,5 +1,7 @@
 # 开放世界大逃杀Wiki
 
+> 推荐安装[Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)插件并使用配置[Stylus-Obsidian-Topaz-Nord.json](https://github.com/XColorful/XColorful.github.io/blob/main/stylus/Stylus-Obsidian-Topaz-Nord.json)
+
 > 所有以[自定义大逃杀](https://github.com/XColorful/BattleRoyale)玩法为核心的整合包都应适用[完整自定义大逃杀Wiki](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki)
 
 该整合包基于[完整自定义大逃杀](https://github.com/XColorful/Custom-BattleRoyale-Complete)制作，仅增加了地形生成部分
@@ -13,6 +15,8 @@
 - [开放世界地形](https://github.com/XColorful/Openworld-Battleroyale/wiki/Openworld-introduction)
 
 # English
+
+> Recommend installing the [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension and using the configuration [Stylus-Obsidian-Topaz-Nord.json](https://github.com/XColorful/XColorful.github.io/blob/main/stylus/Stylus-Obsidian-Topaz-Nord.json)
 
 > All modpacks centered around the [Custom BattleRoyale](https://github.com/XColorful/BattleRoyale) gameplay should refer to the [Custom BattleRoyale Complete Wiki](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki#English) for comprehensive information.
 
