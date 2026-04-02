@@ -1,0 +1,10 @@
+- [主页](https://github.com/XColorful/Openworld-BattleRoyale/wiki)
+	- 整合包使用教程
+		- [修改地形生成配置](https://github.com/XColorful/Openworld-Battleroyale/wiki/Edit-worldgen-configuration)
+	- 整合包说明
+		- [开放世界地形](https://github.com/XColorful/Openworld-Battleroyale/wiki/Openworld-introduction)
+- [Home](https://github.com/XColorful/Openworld-BattleRoyale/wiki#English)
+	- Modpack Usage Tutorial
+		- [Edit worldgen configuration](https://github.com/XColorful/Openworld-Battleroyale/wiki/Edit-worldgen-configuration#English)
+	- Modpack Introduction
+		- [Openworld terrain](https://github.com/XColorful/Openworld-Battleroyale/wiki/Openworld-introduction#English)
